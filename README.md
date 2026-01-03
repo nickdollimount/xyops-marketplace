@@ -230,6 +230,7 @@ Make a pull request, and add your Plugin metadata to the `marketplace.json` file
 {
 	"id": "pixlcore/xyplug-stagehand",
 	"title": "Stagehand",
+	"author": "PixlCore",
 	"description": "An AI-powered browser automation framework for xyOps.  Drive a headless browser with simple English instructions, take actions, extract data, capture network requests, and even record a video of the whole session.",
 	"versions": ["v1.0.9", "v1.0.8", "v1.0.7"],
 	"type": "plugin",
@@ -247,6 +248,7 @@ Here are descriptions of the properties:
 |---------------|------|-------------|
 | `id` | String | The ID of your Plugin, which should be your GitHub Org and your repo ID, joined with a slash. |
 | `title` | String | A title for your Plugin.  Displayed in bold in the marketplace. |
+| `author` | String | The author of the Plugin (company or individual). |
 | `description` | String | A short description of your Plugin.  Displayed under the title in the marketplace. |
 | `versions` | Array | A sorted array of strings containing all the available versions (git tags) of your Plugin.  The latest release should be listed first. |
 | `type` | String | What type of item you are publishing.  Set this to `plugin` for v1 (will be expanded in the future). |
