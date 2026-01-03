@@ -234,9 +234,10 @@ Make a pull request, and add your Plugin metadata to the `marketplace.json` file
 	"versions": ["v1.0.9", "v1.0.8", "v1.0.7"],
 	"type": "plugin",
 	"license": "MIT",
-	"tags": ["stagehand", "playwright"],
+	"tags": ["Stagehand", "Playwright", "Browser"],
 	"requires": [ "docker" ],
-	"date": "2026-01-01"
+	"created": "2026-01-01",
+	"modified": "2026-01-02"
 }
 ```
 
@@ -252,7 +253,8 @@ Here are descriptions of the properties:
 | `license` | String | The [SPDX Identifier](https://spdx.org/licenses/) for the open-source license your Plugin uses (must be OSI-approved). |
 | `tags` | Array | An array of strings, used to build a search index. |
 | `requires` | Array | List the CLI requirements to launch your Plugin, e.g. `npx`, `uvx`, `go run` and/or `docker`. |
-| `date` | String | Date of latest submission, in YYYY-MM-DD format. |
+| `created` | String | Date of first publication, in YYYY-MM-DD format. |
+| `modified` | String | Date of latest version, in YYYY-MM-DD format. |
 
 Note that all Plugin submissions are human-reviewed.  Please be prepared to wait several days before your Plugin is approved.  If your Plugin is denied, a xyOps team member will explain why, and help you to resubmit with the necessary changes to get approved.
 
