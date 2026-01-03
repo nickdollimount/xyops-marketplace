@@ -186,6 +186,31 @@ Make sure your Plugin has a `LICENSE.md` (or `LICENSE`) file at the root level o
 
 Note that it must be an [OSI-approved license](https://spdx.org/licenses/) to be eligible for inclusion in the marketplace.
 
+## Files
+
+In summary, the following files are required to live at the root level of your git repo:
+
+```
+README.md
+LICENSE.md
+xyops.json
+logo.png
+```
+
+(The license can alternatively be named `LICENSE` or `COPYING`, with or without an extension.)
+
+## Tags
+
+Make sure you tag your repo for each release.  The git tag name should be the version number, typically with a leading `v` character, followed by a 3-part number.  Examples:
+
+```
+v1.0.0
+v1.0.1
+v2.0.0
+```
+
+Using [semver](https://semver.org/) style versioning is recommended, but not required.
+
 ## Examples
 
 See the following repositories which are good example Plugins to use as references:
@@ -206,7 +231,7 @@ Make a pull request, and add your Plugin metadata to the `marketplace.json` file
 	"id": "pixlcore/xyplug-stagehand",
 	"title": "Stagehand",
 	"description": "An AI-powered browser automation framework for xyOps.  Drive a headless browser with simple English instructions, take actions, extract data, capture network requests, and even record a video of the whole session.",
-	"versions": ["1.0.9", "1.0.8", "1.0.7"],
+	"versions": ["v1.0.9", "v1.0.8", "v1.0.7"],
 	"type": "plugin",
 	"license": "MIT",
 	"tags": ["stagehand", "playwright"],
@@ -222,7 +247,7 @@ Here are descriptions of the properties:
 | `id` | String | The ID of your Plugin, which should be your GitHub Org and your repo ID, joined with a slash. |
 | `title` | String | A title for your Plugin.  Displayed in bold in the marketplace. |
 | `description` | String | A short description of your Plugin.  Displayed under the title in the marketplace. |
-| `versions` | Array | A sorted array of strings containing all the available versions of your Plugin.  The latest release should be listed first. |
+| `versions` | Array | A sorted array of strings containing all the available versions (git tags) of your Plugin.  The latest release should be listed first. |
 | `type` | String | What type of item you are publishing.  Set this to `plugin` for v1 (will be expanded in the future). |
 | `license` | String | The [SPDX Identifier](https://spdx.org/licenses/) for the open-source license your Plugin uses (must be OSI-approved). |
 | `tags` | Array | An array of strings, used to build a search index. |
