@@ -57,6 +57,20 @@
 			"modified": "2026-01-11"
 		},
 		{
+			"id": "pixlcore/xyplug-weather",
+			"title": "Weather Forecast",
+			"author": "PixlCore",
+			"description": "Fetch current conditions and forecasts from the free Open-Meteo API.",
+			"versions": ["v1.0.1"],
+			"type": "plugin",
+			"plugin_type": "event",
+			"license": "MIT",
+			"tags": ["Weather", "Forecast"],
+			"requires": [ "npx", "git" ],
+			"created": "2026-01-11",
+			"modified": "2026-01-11"
+		},
+		{
 			"id": "UNICodehORN/xyplug-on-holiday",
 			"title": "On Holiday",
 			"author": "UNICodehORN",
