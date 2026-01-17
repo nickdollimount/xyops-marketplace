@@ -61,7 +61,7 @@
 			"title": "Weather Forecast",
 			"author": "PixlCore",
 			"description": "Fetch current conditions and forecasts from the free Open-Meteo API.",
-			"versions": ["v1.0.1"],
+			"versions": ["v1.0.2", "v1.0.1"],
 			"type": "plugin",
 			"plugin_type": "event",
 			"license": "MIT",
