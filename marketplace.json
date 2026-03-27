@@ -99,6 +99,20 @@
 			"modified": "2026-03-25"
 		},
 		{
+			"id": "pixlcore/xyplug-s3",
+			"title": "S3 Toolbox",
+			"author": "PixlCore",
+			"description": "Upload, download, move, copy, list, grep, and delete your files in S3 buckets.",
+			"versions": ["v1.0.0"],
+			"type": "plugin",
+			"plugin_type": "event",
+			"license": "MIT",
+			"tags": ["S3", "AWS"],
+			"requires": [ "npx" ],
+			"created": "2026-03-26",
+			"modified": "2026-03-26"
+		},
+		{
 			"id": "UNICodehORN/xyplug-on-holiday",
 			"title": "On Holiday",
 			"author": "UNICodehORN",
