@@ -188,7 +188,7 @@
 			"title": "ElevenLabs Audio",
 			"author": "PixlCore",
 			"description": "Generate speech, sound effects, music, voice conversions, isolated vocals, and speech transcripts using the ElevenLabs API.",
-			"versions": ["v1.0.1"],
+			"versions": ["v1.0.2", "v1.0.1"],
 			"type": "plugin",
 			"plugin_type": "event",
 			"license": "MIT",
@@ -198,7 +198,7 @@
 				"ELEVENLABS_API_KEY": ""
 			},
 			"created": "2026-05-19",
-			"modified": "2026-05-19"
+			"modified": "2026-05-25"
 		},
 		{
 			"id": "pixlcore/xyplug-image",
