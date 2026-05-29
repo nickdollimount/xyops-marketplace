@@ -664,7 +664,7 @@
 		},
 		{
 			"id": "talder/xyOps-Git",
-			"title": "xyOps Git",
+			"title": "Tim's Git",
 			"author": "Tim Alderweireldt",
 			"description": "Pull and push Git repositories on/from the xyOps conductor server. This is an action plugin with an operation selector — use it to clone/pull repos to a local path, or stage, commit and push changes back to a remote.",
 			"versions": ["v1.0.0"],
