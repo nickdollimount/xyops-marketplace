@@ -233,28 +233,28 @@
 			"title": "FTP Transfer",
 			"author": "PixlCore",
 			"description": "Upload, download, list, and delete files on FTP and FTPS servers.",
-			"versions": ["v1.0.0"],
+			"versions": ["v1.0.1", "v1.0.0"],
 			"type": "plugin",
 			"plugin_type": "event",
 			"license": "MIT",
 			"tags": ["FTP", "FTPS"],
 			"requires": [ "npx" ],
 			"created": "2026-05-28",
-			"modified": "2026-05-28"
+			"modified": "2026-06-10"
 		},
 		{
 			"id": "pixlcore/xyplug-sftp",
 			"title": "SFTP Transfer",
 			"author": "PixlCore",
 			"description": "Upload, download, list, and delete files on SFTP servers.",
-			"versions": ["v1.0.0"],
+			"versions": ["v1.0.1", "v1.0.0"],
 			"type": "plugin",
 			"plugin_type": "event",
 			"license": "MIT",
 			"tags": ["SFTP", "SSH"],
 			"requires": [ "npx" ],
 			"created": "2026-05-28",
-			"modified": "2026-05-28"
+			"modified": "2026-06-10"
 		},
 		{
 			"id": "UNICodehORN/xyplug-on-holiday",
