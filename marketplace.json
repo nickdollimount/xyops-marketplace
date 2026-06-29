@@ -257,6 +257,23 @@
 			"modified": "2026-06-10"
 		},
 		{
+			"id": "pixlcore/xyplug-sheets",
+			"title": "Google Sheets",
+			"author": "PixlCore",
+			"description": "Read, search, append, update, clear, and delete Google Sheets rows and ranges.",
+			"versions": ["v1.0.0"],
+			"type": "plugin",
+			"plugin_type": "event",
+			"license": "MIT",
+			"tags": ["Google", "Spreadsheets"],
+			"requires": [ "npx" ],
+			"env": {
+				"GOOGLE_SERVICE_ACCOUNT_JSON": ""
+			},
+			"created": "2026-06-28",
+			"modified": "2026-06-28"
+		},
+		{
 			"id": "UNICodehORN/xyplug-on-holiday",
 			"title": "On Holiday",
 			"author": "UNICodehORN",
