@@ -58,14 +58,14 @@
 			"title": "Extract Anything",
 			"author": "PixlCore",
 			"description": "Extract structured data out of any file, using the amazing Kreuzberg library.",
-			"versions": ["v2.0.3", "v2.0.2", "v2.0.1", "v1.0.2", "v1.0.1"],
+			"versions": ["v2.0.4", "v2.0.3", "v2.0.2", "v2.0.1", "v1.0.2", "v1.0.1"],
 			"type": "plugin",
 			"plugin_type": "event",
 			"license": "MIT",
 			"tags": ["Extract", "OCR", "Kreuzberg"],
 			"requires": [ "docker" ],
 			"created": "2026-01-11",
-			"modified": "2026-01-26"
+			"modified": "2026-06-28"
 		},
 		{
 			"id": "pixlcore/xyplug-weather",
@@ -174,14 +174,14 @@
 			"title": "Package Manager",
 			"author": "PixlCore",
 			"description": "Manage all your system packages using the excellent meta-package-manager project.",
-			"versions": ["v1.0.2", "v1.0.1", "v1.0.0"],
+			"versions": ["v1.0.3", "v1.0.2", "v1.0.1", "v1.0.0"],
 			"type": "plugin",
 			"plugin_type": "event",
 			"license": "MIT",
 			"tags": ["Upgrade", "System"],
 			"requires": [],
 			"created": "2026-04-27",
-			"modified": "2026-05-01"
+			"modified": "2026-06-28"
 		},
 		{
 			"id": "pixlcore/xyplug-eleven",
