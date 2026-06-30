@@ -274,6 +274,20 @@
 			"modified": "2026-06-28"
 		},
 		{
+			"id": "pixlcore/xyplug-calendar",
+			"title": "iCal Blackout Calendar",
+			"author": "PixlCore",
+			"description": "Use an iCal file to block scheduled jobs during events, or only allow jobs during events.",
+			"versions": ["v1.0.0"],
+			"type": "plugin",
+			"plugin_type": "scheduler",
+			"license": "MIT",
+			"tags": ["Calendar", "iCal"],
+			"requires": [ "npx" ],
+			"created": "2026-06-30",
+			"modified": "2026-06-30"
+		},
+		{
 			"id": "UNICodehORN/xyplug-on-holiday",
 			"title": "On Holiday",
 			"author": "UNICodehORN",
