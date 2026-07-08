@@ -327,7 +327,7 @@
 			"tags": ["PowerShell"],
 			"requires": ["powershell"],
 			"created": "2026-01-18",
-			"modified": "2026-05-21"
+			"modified": "2026-07-08"
 		},
 		{
 			"id": "nickdollimount/xyplug-join-notification",
