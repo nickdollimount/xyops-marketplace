@@ -1267,7 +1267,7 @@
 			"author": "madebysaira",
 			"description": "Post-render quality gate for AI-generated video. Runs a rendered clip through AIVideoAdherenceGate (offline-first, ffmpeg) to check motion health, morph-drift, and lip-sync, and returns pass/warn/fail codes (0/1/2) that xyOps workflows branch on.",
 			"versions": [
-				"v1.0.1"
+				"v1.0.2"
 			],
 			"type": "plugin",
 			"plugin_type": "event",
